@@ -11,6 +11,9 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <h1>This is a text added by easyboy1.0 live editing, automatic refresh</h1>
+
+          <p>HAHAHAHAHAH!! I think it's working man hello again</p>
           <a
             className="App-link"
             href="https://reactjs.org"
