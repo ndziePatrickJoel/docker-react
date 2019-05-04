@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+
+before_install:
+  - docker build -t diceprime/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run diceprime/docker-react npm run test -- --coverage
